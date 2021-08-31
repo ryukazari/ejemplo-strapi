@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tipo-centro-educativos",
+      "handler": "tipo-centro-educativo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tipo-centro-educativos/count",
+      "handler": "tipo-centro-educativo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tipo-centro-educativos/:id",
+      "handler": "tipo-centro-educativo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tipo-centro-educativos",
+      "handler": "tipo-centro-educativo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tipo-centro-educativos/:id",
+      "handler": "tipo-centro-educativo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tipo-centro-educativos/:id",
+      "handler": "tipo-centro-educativo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

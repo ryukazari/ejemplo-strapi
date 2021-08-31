@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipo_centro_educativos",
+  "info": {
+    "name": "Tipo_CentroEducativo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ID_Tipo_CentroEducativo": {
+      "type": "uid"
+    },
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Descripcion": {
+      "type": "richtext"
+    },
+    "centro_educativos": {
+      "via": "tipo_centro_educativo",
+      "collection": "centro-educativo"
+    }
+  }
+}
